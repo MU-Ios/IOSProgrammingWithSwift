@@ -1,9 +1,7 @@
 import UIKit
 
 //Koleksion, Collections
-
-var greeting = "Hello, playground"
-
+//Array Dizi Liste
 var myFirstArray = ["Musa", "Gençay", "Gökhan", "Metin"]
 
 //index
@@ -34,3 +32,22 @@ numberArray.sort()
 
 var charArray = ["a", "j", "b", "o", "d"]
 charArray.sorted()
+
+//Set
+var numbers = [1,1,1,1,2,3,4,5,6]
+
+var numberSet: Set = [1,1,1,1,2,3,4,5,6]
+numberSet.remove(3)
+numberSet.description
+
+var orderArray = ["İstanbul", "İstanbul", "Ankara", "Adana"]
+
+var orderSet = Set(orderArray)
+orderSet.description
+orderSet.count
+
+let firstSet :Set = [40,50,60]
+let secondSet : Set = [50,60,70]
+
+let mergeSet = firstSet.union(secondSet)
+mergeSet.description
