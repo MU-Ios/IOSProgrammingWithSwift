@@ -51,3 +51,25 @@ let secondSet : Set = [50,60,70]
 
 let mergeSet = firstSet.union(secondSet)
 mergeSet.description
+
+//Dictionary
+
+//key-value pairing - anahtar kelime - değer eşleşmesi
+
+let fruitArray = ["Apple","Banana","Orange","Watermelon"]
+let calArray = [100,150,120,300]
+
+fruitArray[2]
+calArray[2]
+
+var fruitCalDictionary = [ "Apple":100, "Banana":150, "Orange":120, "Watermelon":300 ]
+fruitCalDictionary["Apple"]
+
+fruitCalDictionary.keys
+fruitCalDictionary.values
+
+fruitCalDictionary["Banana"] = 200
+
+var newDictionary = [20: 30.2, 30:40.4]
+newDictionary[40] = 50.5
+newDictionary
