@@ -71,4 +71,3 @@ if myAge < 20 {
 {
     print("kırk yaşından büyüksün")
 }
-
