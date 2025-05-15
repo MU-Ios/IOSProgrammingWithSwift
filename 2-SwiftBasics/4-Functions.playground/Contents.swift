@@ -18,8 +18,8 @@ func add(x: Int, y: Int){
 }
 
 add(x: 10, y: 20)
-var number = add(x: 10, y: 20)
-print(number)
+//var number = add(x: 10, y: 20)
+//print(number)
 
 func multiply(x: Int, y: Int) -> Int{
     return x * y
@@ -39,3 +39,26 @@ func logicFunction(x : Int, y: Int) -> Bool{
 }
 
 logicFunction(x: 1, y: 3)
+
+
+//Opsiyoneller (Optionals)
+
+var myName : String?
+
+myName?.uppercased()
+
+myName = "Musa"
+
+myName?.uppercased()
+
+var userNumber = "musa"
+
+//var result = Int(userNumber)! * 5
+
+var result = (Int(userNumber) ?? 1) * 5
+
+if let newResult = Int(userNumber){
+    newResult * 5
+}else{
+    print("Yanlış giriyorsun rakam gir lütfen")
+}
