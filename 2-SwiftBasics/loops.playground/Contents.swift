@@ -48,3 +48,27 @@ for number in numberArray{
 for newNumber in 1 ... 10 {
     print(newNumber)
 }
+
+// If Kontrolleri (If Statements) Eğer Kontrolleri
+
+3 == 3
+// AND &&
+// OR ||
+
+3 == 3 && 4 == 4
+3 != 3 && 4 == 4
+3 != 3 || 4 == 4
+3 != 3 || 4 != 4
+
+var myAge = 26
+if myAge < 20 {
+    print("Çok gençsin")
+} else if(myAge > 20 && myAge < 30){
+    print("Yirmili yaşlarındasın")
+}else if myAge > 30 && myAge < 40 {
+    print("Otuzlu yaşlarındasın")
+}else
+{
+    print("kırk yaşından büyüksün")
+}
+
